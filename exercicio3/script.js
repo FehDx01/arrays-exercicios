@@ -1,58 +1,48 @@
 //a
 
-/* function primeiroArray(numerosCopia) {
+const array1 = [10, 23, 45, 18]
+const array2 = ["maça", "banana", "chevette"]
+const array3 = [14, "panela", true]
 
-    const array1 = [10, 23, 45, 18]
-        
-    numeros = array1
-        
-    numerosCopia = numeros.slice()
-    
+function primeiroArray(numerosCopia) {
+
+    numerosCopia = array1.slice()
+
     numerosCopia.unshift(6)
 
-    console.log(numeros)
+    console.log(array1)
     console.log(numerosCopia)
 
 }
 
-primeiroArray()
+primeiroArray(array1)
 
 //b
 
 function segundoArray(frasesCopia) {
 
-    const array2 = ["maça", "banana", "chevette"]
-          
-    frases = array2
-    
-    frasesCopia = frases.slice()
-    
+    frasesCopia = array2.slice()
+
     frasesCopia.pop()
 
-    console.log(frases)
+    console.log(array2)
     console.log(frasesCopia)
 
 }
 
-segundoArray() */
+segundoArray(array2)
 
 //c
 
-/* function terceiroArray(mistoCopia) {
+function terceiroArray(mistoCopia) {
 
-    const array3 = [14, "panela", true]
-    
-    misto = array3
-    
-    mistoCopia = misto.slice()
-    
+    mistoCopia = array3.slice()
 
+    mistoCopia.splice(1, 1)
 
-    mistoCopia.splice(1,1)
-
-    console.log(misto)
+    console.log(array3)
     console.log(mistoCopia)
 
 }
 
-terceiroArray() */
+terceiroArray(array3)
